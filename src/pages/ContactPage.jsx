@@ -1,9 +1,16 @@
 import React from 'react'
 import ContactMe from '../components/ContactMe'
+import HeroBanner from '../components/HeroBanner'
 
 const ContactPage = () => {
   return (
-   <ContactMe />
+    <section>
+      <HeroBanner
+        title="Contact Us"
+        breadcrumb="Home / Contact Us"
+      />
+      <ContactMe />
+    </section>
   )
 }
 

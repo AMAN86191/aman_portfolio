@@ -25,7 +25,7 @@ const Skills = () => {
           {/* Frontend / Tools */}
           <div>
             <h3 className="text-lg sm:text-xl text-blue-400 font-semibold mb-4">Frontend & Tools</h3>
-            <div className="flex flex-wrap justify-center gap-3 w-1/2 m-auto">
+            <div className="flex flex-wrap justify-center gap-3 w-1/1 m-auto">
               {devSkills.map((skill, idx) => (
                 <span
                   key={idx}
