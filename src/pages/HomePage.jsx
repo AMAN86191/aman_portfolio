@@ -4,16 +4,18 @@ import About from '../components/About'
 import Skills from '../components/Skills'
 import ProjectsSlider from '../components/ProjectsSlider'
 import ContactMe from '../components/ContactMe'
+import ProjectShowPage from './ProjectShowPage'
 
 const HomePage = () => {
   return (
-    <div>
-        <Hero />
+    <>
+        <Hero />  
         <About bg="bg-[#0f172a]" />
         <Skills />
-        <ProjectsSlider />
-        <ContactMe />
-    </div>
+        {/* <ProjectsSlider /> */}
+         <ProjectShowPage />
+        {/* <ContactMe /> */}
+    </>
   )
 }
 

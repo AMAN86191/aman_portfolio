@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectsSlider from '../components/ProjectsSlider'
 import HeroBanner from '../components/HeroBanner'
+import ProjectShowPage from './ProjectShowPage'
 
 const ProjectPage = () => {
     return (
@@ -9,7 +10,8 @@ const ProjectPage = () => {
                 title="My Projects"
                 breadcrumb="Home / Projects"
             />
-            <ProjectsSlider />
+            {/* <ProjectsSlider /> */}
+            <ProjectShowPage />
         </div>
     )
 }

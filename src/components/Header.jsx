@@ -18,7 +18,7 @@ const Header = () => {
           <Link to="/" className="hover:text-indigo-600">Home</Link>
           <Link to="/about" className="hover:text-indigo-600">About</Link>
           <Link to="/projects" className="hover:text-indigo-600">Projects</Link>
-          <Link to="/contact" className="hover:text-indigo-600">Contact</Link>
+          {/* <Link to="/contact" className="hover:text-indigo-600">Contact</Link> */}
         </nav>
 
         {/* Mobile Menu Button */}
@@ -37,7 +37,7 @@ const Header = () => {
             <Link to="/" onClick={() => setMenuOpen(false)} className="hover:text-indigo-600">Home</Link>
             <Link to="/about" onClick={() => setMenuOpen(false)} className="hover:text-indigo-600">About</Link>
             <Link to="/projects" onClick={() => setMenuOpen(false)} className="hover:text-indigo-600">Projects</Link>
-            <Link to="/contact" onClick={() => setMenuOpen(false)} className="hover:text-indigo-600">Contact</Link>
+            {/* <Link to="/contact" onClick={() => setMenuOpen(false)} className="hover:text-indigo-600">Contact</Link> */}
           </nav>
         </div>
       )}

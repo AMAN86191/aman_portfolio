@@ -8,9 +8,9 @@ const Footer = () => {
           <a href="https://github.com/shivamsk00" target="_blank" rel="noopener noreferrer" className="hover:underline">
             GitHub
           </a>
-          <a href="mailto:your-email@example.com" className="hover:underline">
+          {/* <a href="mailto:your-email@example.com" className="hover:underline">
             Contact
-          </a>
+          </a> */}
         </div>
       </div>
     </footer>
