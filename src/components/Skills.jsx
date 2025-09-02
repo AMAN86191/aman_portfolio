@@ -1,13 +1,13 @@
 import React from "react";
 
 const devSkills = [
-  "React.js", "React Native", "Electron.js", "HTML", "CSS", "JavaScript",
-  "Redux", "Zustand", "GitHub", "Tailwind CSS", "Figma"
+  "React.js", "React Native",  "HTML", "CSS", "JavaScript",
+  "Redux", "Zustand", "GitHub", "Tailwind CSS"
 ];
 
 const backendSkills = [
-  "Node.js", "Express.js", "MongoDB"
-];
+  "PHP", "Laravel", "Mysql Database"
+];  
 
 const otherSkills = [
   "Responsive Design", "REST APIs", "UI/UX", "CLI Tools", "Component Reusability"

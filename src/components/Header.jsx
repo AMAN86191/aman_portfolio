@@ -10,7 +10,7 @@ const Header = () => {
     <header className="bg-white shadow sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
         <Link to="/" className="text-xl font-bold text-indigo-600">
-          Shivam.dev
+          Aman.dev
         </Link>
 
         {/* Desktop Nav */}

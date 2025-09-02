@@ -11,7 +11,6 @@ const Hero = () => {
     { name: 'REACT NATIVE', color: 'bg-sky-600' },
     { name: 'Bootstrap', color: 'bg-purple-600' },
     { name: 'GitHub', color: 'bg-gray-800' },
-    { name: 'Electron JS', color: 'bg-green-600' },
     { name: 'Tailwind CSS', color: 'bg-teal-500' },
   ];
 
@@ -52,17 +51,31 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <button className="bg-indigo-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-indigo-700 transition">
-              Let’s Talk
-            </button>
-            <button className="border border-indigo-400 text-indigo-600 px-6 py-3 rounded-lg font-medium hover:bg-white/10 transition">
-              Start Project
-            </button>
+           <a
+  href="https://wa.me/918619115648"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="bg-indigo-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-indigo-700 transition">
+    Let’s Talk
+  </button>
+</a>
+
+<a
+  href="https://wa.me/918619115648"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="border border-indigo-400 text-indigo-600 px-6 py-3 rounded-lg font-medium hover:bg-white/10 transition">
+    Start Project
+  </button>
+</a>
+
           </div>
 
           <div className="flex justify-center lg:justify-start gap-6 pt-4 text-center">
             <div>
-              <p className="text-2xl font-bold">2.5+</p>
+              <p className="text-2xl font-bold">1.5+</p>
               <p className="text-sm text-gray-900">Years Experience</p>
             </div>
             <div>
@@ -76,6 +89,7 @@ const Hero = () => {
         <div className="relative w-full max-w-sm sm:max-w-md mx-auto  rounded-full">
           <img
             src="https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-man-avatar-image-for-profile-png-image_9197908.png"
+            // src="/my-pic.png"
             alt="Hero Avatar"
             className="w-full h-full  object-cover  rounded-full"
           />
