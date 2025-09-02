@@ -54,26 +54,26 @@ const projects = [
     ],
     link: "#", // add Play Store link if available
   },
-  {
-    title: "Revision24 – Test Series Platform (Cross-platform + Web)",
-    description: [
-      "Developed both mobile (React Native CLI) and web (React.js) applications for exam preparation.",
-      "Features include online test series, contests, leaderboards, and advanced quiz logic.",
-      "Integrated Firebase Cloud Messaging, Cashfree Payment Gateway, and secure authentication.",
-      "Managed global state with Redux Toolkit and ensured responsive design across devices.",
-    ],
-    techStack: [
-      "React Native CLI",
-      "React.js",
-      "Redux Toolkit",
-      "Redux Thunk",
-      "Axios",
-      "Firebase Cloud Messaging",
-      "Cashfree",
-      "REST APIs",
-    ],
-    link: "#", // add your live site link if you want
-  },
+  // {
+  //   title: "Revision24 – Test Series Platform (Cross-platform + Web)",
+  //   description: [
+  //     "Developed both mobile (React Native CLI) and web (React.js) applications for exam preparation.",
+  //     "Features include online test series, contests, leaderboards, and advanced quiz logic.",
+  //     "Integrated Firebase Cloud Messaging, Cashfree Payment Gateway, and secure authentication.",
+  //     "Managed global state with Redux Toolkit and ensured responsive design across devices.",
+  //   ],
+  //   techStack: [
+  //     "React Native CLI",
+  //     "React.js",
+  //     "Redux Toolkit",
+  //     "Redux Thunk",
+  //     "Axios",
+  //     "Firebase Cloud Messaging",
+  //     "Cashfree",
+  //     "REST APIs",
+  //   ],
+  //   link: "#", // add your live site link if you want
+  // },
 
 ];
 

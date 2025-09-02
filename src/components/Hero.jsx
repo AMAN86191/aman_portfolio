@@ -7,7 +7,7 @@ const Hero = () => {
     { name: 'HTML', color: 'bg-orange-500' },
     { name: 'CSS', color: 'bg-blue-500' },
     { name: 'JAVASCRIPT', color: 'bg-yellow-500' },
-    { name: 'REACT JS', color: 'bg-cyan-500' },
+    // { name: 'REACT JS', color: 'bg-cyan-500' },
     { name: 'REACT NATIVE', color: 'bg-sky-600' },
     { name: 'Bootstrap', color: 'bg-purple-600' },
     { name: 'GitHub', color: 'bg-gray-800' },
